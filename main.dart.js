@@ -77666,7 +77666,7 @@ s=p}while(true)switch(s){case 0:p=4
 i=A.aCe()
 i.a="GET"
 s=7
-return A.T(n.a.G5("http://api.weatherapi.com/v1/forecast.json?key=2cf524093b05455e904104019250811&q="+a+"&days=1",null,null,null,i,null,t.z),$async$tL)
+return A.T(n.a.G5(" https://corsproxy.io/?https://api.weatherapi.com/v1/forecast.json?key=2cf524093b05455e904104019250811&q="+a+"&days=1",null,null,null,i,null,t.z),$async$tL)
 case 7:m=a0
 h=m.a
 g=J.b8(h)
