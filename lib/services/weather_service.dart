@@ -6,7 +6,7 @@ class WeatherService {
   // https://corsproxy.io/?https://api.openweathermap.org/data/2.5/weather
 
   WeatherService({required this.dio});
-  final String baseUrl = ' https://corsproxy.io/?https://api.weatherapi.com/v1';
+  final String baseUrl = 'http://api.weatherapi.com/v1';
   final String apikey = '2cf524093b05455e904104019250811';
   Future<WeatherModel> getdata({required String cityName}) async {
     try {
